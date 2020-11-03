@@ -1,10 +1,10 @@
 const Filter = () => {
   return (
-    <div class="filter">
-      <div class="wrapper">
-        <div class="filter__label">
+    <div className="filter">
+      <div className="wrapper">
+        <div className="filter__label">
           <svg
-            class="filter__setting"
+            className="filter__setting"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -15,13 +15,13 @@ const Filter = () => {
               <path d="m432.733 369.533h-164.194c-6.281-18.655-23.926-32.133-44.672-32.133s-38.391 13.478-44.672 32.133h-99.928c-8.284 0-15 6.716-15 15s6.716 15 15 15h99.928c6.281 18.655 23.926 32.133 44.672 32.133s38.391-13.478 44.672-32.133h164.195c8.284 0 15-6.716 15-15s-6.716-15-15.001-15zm-208.866 32.134c-9.447 0-17.133-7.686-17.133-17.133s7.686-17.133 17.133-17.133 17.133 7.685 17.133 17.132-7.686 17.134-17.133 17.134z" />
             </g>
           </svg>
-          <span class="filter__text">фильтрация</span>
+          <span className="filter__text">фильтрация</span>
         </div>
-        <div class="filter__items">
-          <div class="filter__option filter__option-active">Имя</div>
-          <div class="filter__option">Возраст</div>
-          <div class="filter__option">Пол</div>
-          <div class="filter__option">Email</div>
+        <div className="filter__items">
+          <div className="filter__option filter__option-active">Имя</div>
+          <div className="filter__option">Возраст</div>
+          <div className="filter__option">Пол</div>
+          <div className="filter__option">Email</div>
         </div>
       </div>
     </div>

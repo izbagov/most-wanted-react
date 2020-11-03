@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
-    <div class="wrapper">
-      <a href="/" class="logo">
+    <div className="wrapper">
+      <Link to="/" className="logo">
         Most Wanted
-      </a>
+      </Link>
     </div>
   );
 };

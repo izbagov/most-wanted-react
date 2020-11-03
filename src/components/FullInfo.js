@@ -1,14 +1,15 @@
+import { useContext } from "react";
 import Card from "./Card";
+import AppContext from "../context";
 
-const Cards = () => {
+const FullInfo = () => {
+  const { users } = useContext(AppContext);
+
+  console.log("users", users);
   return (
     <div className="wrapper">
       <section className="people">
         <div className="row">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
           <Card />
         </div>
       </section>
@@ -16,4 +17,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default FullInfo;

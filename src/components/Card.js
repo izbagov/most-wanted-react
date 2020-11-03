@@ -1,33 +1,36 @@
+import { Link } from "react-router-dom";
 import person from "../assets/img/people/h1.png";
 
 const Card = () => {
   return (
-    <div class="col">
-      <article class="card">
-        <div class="card__image">
+    <div className="col">
+      <article className="card">
+        <div className="card__image">
           <img src={person} alt="People 1" />
         </div>
-        <div class="card__content">
-          <div class="card__title">
-            <div class="card__name">Leslie Burke</div>
-            <div class="card__gender card__gender-male"></div>
+        <div className="card__content">
+          <div className="card__title">
+            <div className="card__name">
+              <Link to="/chel/leslie">Leslie Burke</Link>
+            </div>
+            <div className="card__gender card__gender-male"></div>
           </div>
-          <div class="card__info">
-            <div class="card__item">
-              <div class="card__label">email</div>
-              <div class="card__text">charlotter@example.com</div>
+          <div className="card__info">
+            <div className="card__item">
+              <div className="card__label">email</div>
+              <div className="card__text">charlotter@example.com</div>
             </div>
-            <div class="card__item">
-              <div class="card__label">адрес</div>
-              <div class="card__text">9278 new road kilcoole</div>
+            <div className="card__item">
+              <div className="card__label">адрес</div>
+              <div className="card__text">9278 new road kilcoole</div>
             </div>
-            <div class="card__item">
-              <div class="card__label">возраст</div>
-              <div class="card__text">30 лет</div>
+            <div className="card__item">
+              <div className="card__label">возраст</div>
+              <div className="card__text">30 лет</div>
             </div>
-            <div class="card__item">
-              <div class="card__label">телефон</div>
-              <div class="card__text">730-468-4848</div>
+            <div className="card__item">
+              <div className="card__label">телефон</div>
+              <div className="card__text">730-468-4848</div>
             </div>
           </div>
         </div>
