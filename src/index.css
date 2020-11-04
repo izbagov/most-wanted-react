@@ -154,6 +154,14 @@ body {
   color: #374041;
 }
 
+.card__name a {
+  color: #374041;
+}
+
+.card__name a:hover {
+  text-decoration: none;
+}
+
 .card__gender {
   flex: 0 0 18px;
   height: 18px;
